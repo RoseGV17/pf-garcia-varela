@@ -1,0 +1,54 @@
+/*-----------------------general text style mobile view-----------------------*/
+.titles{
+    color: $quaternary-color;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.paragraph{
+    margin: 0px;
+    font-size: 8px;
+}
+
+
+/*-----------------------index presentation mobile view-----------------------*/
+#presentation_video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.presentation_style{
+    margin: 15px 25px 15px 25px;
+}
+
+#presentation_paragraph1{
+    margin-top: 20px;
+    display: grid;
+    grid-template-areas: "aside article";
+    align-items: center;
+    grid-column-gap: 10px;
+}
+
+#presentation_paragraph2{
+    margin-top: 35px;
+    display: grid;
+    grid-template-areas: "article aside";
+    align-items: center;
+}
+
+.presentation_sofi-pic{
+    max-width: $image-size*0.75;
+    max-height: $image-size*0.75;
+    border-radius: 15px;
+}
+
+/*-----------------------reviews-----------------------*/
+
+.reviews_pic {
+    max-width: $image-size*1.5;
+    max-height: $image-size;
+    margin: auto;
+}
