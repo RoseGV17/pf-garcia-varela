@@ -40,7 +40,6 @@ header{
     margin: 0px;
 }
 
-
 @import "styles-mobile.scss";
 @import "rsc-mobile.scss";
 
@@ -58,9 +57,16 @@ header{
     border: $secondary-color;
     border-style: solid;
     padding: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
     &:hover{
         background-color: $quaternary-color;
     }
+}
+
+#book_me_pic{
+    max-width: 100%;
+    resize: both;
 }
 
 @media screen and (min-width: 600px){

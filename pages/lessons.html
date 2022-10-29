@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="../scss/styles.css">
         <title>Spanishtive - Professional Spanish Teacher</title>
         <link rel="icon" type="image/png" href="../images-n-fonts/favicon.png">
@@ -16,12 +17,19 @@
             <h1 class="header_motto">SPANISHTIVE</h1>
             <h4 class="header_motto">Professional Spanish Teacher - Online lessons & resources</h4>
         </header>
-        <nav>
-            <span><a href="../index.html" class="nav_other">Home</a></span>
-            <span><a href="lessons.html" class="nav_current">About lessons</a></span>
-            <span><a href="grammar.html" class="nav_other">Grammar exercises</a></span>
-            <span><a href="conversation.html" class="nav_other">Conversation topics</a></span>
-            <span><a href="contact-me.html" class="nav_other">Contact me</a></span>
+        <nav class="navbar navbar-expand-md nav_bar">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navlist" name="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navlist">
+                <ul class="nav mx-auto">
+                    <li class="nav-item"><a href="../index.html" class="nav-link nav_other">Home</a></li>
+                    <li class="nav-item"><a href="lessons.html" class="nav-link nav_current">About lessons</a></li>
+                    <li class="nav-item"><a href="grammar.html" class="nav-link nav_other">Grammar exercises</a></li>
+                    <li class="nav-item"><a href="conversation.html" class="nav-link nav_other">Conversation topics</a></li>
+                    <li class="nav-item"><a href="contact-me.html" class="nav-link nav_other">Contact me</a></li>
+                </ul>
+            </div> 
         </nav>
 
         <!-- Explicacion lecciones-->
@@ -43,7 +51,7 @@
         </div>
         <div class="book_me">
             <button type="button" id="book_me_button"><a href="https://bookme.name/sofytalk/">Book me with a 50% discount in your first lesson!</a></button>
-            <img src="../images-n-fonts/horario-de-clases.jpg">
+            <img src="../images-n-fonts/horario-de-clases.jpg" id="book_me_pic">
         </div>
 
         <!-- Footer / igual en todas las páginas -->

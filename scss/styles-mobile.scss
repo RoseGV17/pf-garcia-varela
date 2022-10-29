@@ -45,27 +45,10 @@
     border-radius: 15px;
 }
 
+/*-----------------------reviews-----------------------*/
+
 .reviews_pic {
-    position: relative;
-    max-width: $image-size*2;
+    max-width: $image-size*1.5;
     max-height: $image-size;
     margin-top: 15px;
-}
-
-.reviews > img {
-    opacity: 0.5;
-    animation: display 5s infinite;
-}
-
-img:nth-child(2) {
-    animation-delay: 2s;
-}
-img:nth-child(3) {
-    animation-delay: 4s;
-}
-img:nth-child(4) {
-    animation-delay: 6s;
-}
-img:nth-child(5) {
-    animation-delay: 8s;
 }
