@@ -1,0 +1,31 @@
+.form_font{
+    font-size: 8px;
+    font-family: Helvetica, serif;
+}
+
+@media screen and (min-width: 600px){
+    .form_font{
+        font-size: 13px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .form_font{
+        font-size: 18px;
+
+    }
+    .form_size{
+        max-width: 55%;
+    }
+}
+
+#submit_button{
+    color: white;
+    background-color: $tertiary-color;
+    border: $secondary-color;
+    border-style: solid;
+    padding-left: 15px;
+    padding-right: 15px;
+    &:hover{
+        background-color: $quaternary-color;
+    }
+}
